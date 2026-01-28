@@ -37,3 +37,4 @@ print(test.twoSum(nums, target))
 # Beats (Speed): 31.55%
 # Memory: 19.79 MB
 # Beats (Memory): 36.55%
+# It is still O(n^2) because of "ans in nums" and "nums.index(ans)"
